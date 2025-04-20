@@ -30,6 +30,11 @@
         {
             this.btn_listar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Daño = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Municion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Velocidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Index = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lbl_Index = new System.Windows.Forms.Label();
             this.lbl_DanoArea = new System.Windows.Forms.Label();
             this.lbl_Cadencia = new System.Windows.Forms.Label();
@@ -39,11 +44,6 @@
             this.txt_Cadencia = new System.Windows.Forms.TextBox();
             this.txt_Nombre = new System.Windows.Forms.TextBox();
             this.btn_cambiar = new System.Windows.Forms.Button();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Daño = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Municion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Velocidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Index = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -72,6 +72,37 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(544, 150);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            // 
+            // Daño
+            // 
+            this.Daño.HeaderText = "Daño";
+            this.Daño.Name = "Daño";
+            this.Daño.ReadOnly = true;
+            // 
+            // Municion
+            // 
+            this.Municion.HeaderText = "Municion";
+            this.Municion.Name = "Municion";
+            this.Municion.ReadOnly = true;
+            // 
+            // Velocidad
+            // 
+            this.Velocidad.HeaderText = "Velocidad";
+            this.Velocidad.Name = "Velocidad";
+            this.Velocidad.ReadOnly = true;
+            // 
+            // Index
+            // 
+            this.Index.HeaderText = "Index";
+            this.Index.Name = "Index";
+            this.Index.ReadOnly = true;
             // 
             // lbl_Index
             // 
@@ -147,36 +178,6 @@
             this.btn_cambiar.TabIndex = 13;
             this.btn_cambiar.Text = "Cambiar";
             this.btn_cambiar.UseVisualStyleBackColor = true;
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // Daño
-            // 
-            this.Daño.HeaderText = "Daño";
-            this.Daño.Name = "Daño";
-            this.Daño.ReadOnly = true;
-            // 
-            // Municion
-            // 
-            this.Municion.HeaderText = "Municion";
-            this.Municion.Name = "Municion";
-            this.Municion.ReadOnly = true;
-            // 
-            // Velocidad
-            // 
-            this.Velocidad.HeaderText = "Velocidad";
-            this.Velocidad.Name = "Velocidad";
-            this.Velocidad.ReadOnly = true;
-            // 
-            // Index
-            // 
-            this.Index.HeaderText = "Index";
-            this.Index.Name = "Index";
-            this.Index.ReadOnly = true;
             // 
             // textBox1
             // 

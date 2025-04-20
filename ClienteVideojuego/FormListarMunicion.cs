@@ -57,12 +57,12 @@ namespace ClienteVideojuego
             dataGridView1.Columns.Add("nombre", "Nombre");
             dataGridView1.Columns.Add("cadencia", "Cadencia");
             dataGridView1.Columns.Add("danoArea", "Daño en Área");
-            dataGridView1.Columns.Add("Index", "Índice");
+            
             dataGridView1.ReadOnly = true;
             dataGridView1.AllowUserToAddRows = false;
             foreach (var Municion in municiones)
             {
-                dataGridView1.Rows.Add(Municion.nombre, Municion.cadencia, Municion.danoArea, Municion.index);
+                dataGridView1.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea);
             }
         }
 

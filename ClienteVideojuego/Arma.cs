@@ -31,6 +31,10 @@ namespace ClienteVideojuego
         [JsonPropertyName("tipoMunicion")]
         public Municion tipoMunicion { get; set; }
 
+        [JsonPropertyName("indice")]
+        public int indice { get; set; }
+
+
         [JsonIgnore]
         public DateTime FechaCreacionDate =>
              new DateTime(

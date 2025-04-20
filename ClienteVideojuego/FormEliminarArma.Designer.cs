@@ -34,8 +34,7 @@
             this.Daño = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Municion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Velocidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lbl_eliminar = new System.Windows.Forms.Label();
-            this.txt_eliminar = new System.Windows.Forms.TextBox();
+            this.textNombre = new System.Windows.Forms.TextBox();
             this.btn_Eliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -48,6 +47,7 @@
             this.btn_listar.TabIndex = 5;
             this.btn_listar.Text = "Listar armas";
             this.btn_listar.UseVisualStyleBackColor = true;
+            this.btn_listar.Click += new System.EventHandler(this.btn_listar_Click);
             // 
             // dataGridView1
             // 
@@ -62,6 +62,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(445, 150);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Nombre
             // 
@@ -87,21 +88,13 @@
             this.Velocidad.Name = "Velocidad";
             this.Velocidad.ReadOnly = true;
             // 
-            // lbl_eliminar
+            // textNombre
             // 
-            this.lbl_eliminar.AutoSize = true;
-            this.lbl_eliminar.Location = new System.Drawing.Point(379, 303);
-            this.lbl_eliminar.Name = "lbl_eliminar";
-            this.lbl_eliminar.Size = new System.Drawing.Size(171, 13);
-            this.lbl_eliminar.TabIndex = 9;
-            this.lbl_eliminar.Text = "Ingrese el index del arma a eliminar";
-            // 
-            // txt_eliminar
-            // 
-            this.txt_eliminar.Location = new System.Drawing.Point(301, 300);
-            this.txt_eliminar.Name = "txt_eliminar";
-            this.txt_eliminar.Size = new System.Drawing.Size(46, 20);
-            this.txt_eliminar.TabIndex = 8;
+            this.textNombre.Location = new System.Drawing.Point(106, 54);
+            this.textNombre.Name = "textNombre";
+            this.textNombre.Size = new System.Drawing.Size(88, 20);
+            this.textNombre.TabIndex = 8;
+            this.textNombre.TextChanged += new System.EventHandler(this.txt_eliminar_TextChanged);
             // 
             // btn_Eliminar
             // 
@@ -111,14 +104,14 @@
             this.btn_Eliminar.TabIndex = 7;
             this.btn_Eliminar.Text = "Eliminar";
             this.btn_Eliminar.UseVisualStyleBackColor = true;
+            this.btn_Eliminar.Click += new System.EventHandler(this.btn_Eliminar_Click);
             // 
             // FormEliminarArma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lbl_eliminar);
-            this.Controls.Add(this.txt_eliminar);
+            this.Controls.Add(this.textNombre);
             this.Controls.Add(this.btn_Eliminar);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.dataGridView1);
@@ -138,8 +131,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Daño;
         private System.Windows.Forms.DataGridViewTextBoxColumn Municion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Velocidad;
-        private System.Windows.Forms.Label lbl_eliminar;
-        private System.Windows.Forms.TextBox txt_eliminar;
+        private System.Windows.Forms.TextBox textNombre;
         private System.Windows.Forms.Button btn_Eliminar;
     }
 }

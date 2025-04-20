@@ -3,72 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formlistarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formlistarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formlistararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formlistararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formeliminarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formeliminarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formeliminararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formeliminararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formcrearmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formcrearmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formcreararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\clientevideojuego\\formcreararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formcreararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formcambiarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formcambiarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formcambiararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formcambiararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormJuego.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:ClienteVideojuego\\FormJuego.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formeliminarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formeliminarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:ClienteVideojuego\\FormMenu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formlistararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formlistararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:ClienteVideojuego\\FormMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formcreararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formcreararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\Arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:ClienteVideojuego\\Arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\municion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\municion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\clientevideojuego\\formcrearmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formcrearmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearArma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:ClienteVideojuego\\FormCrearArma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formlistarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formlistarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:ClienteVideojuego\\FormListarArma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|c:\\users\\sebastian\\source\\repos\\clientevideojuego\\clientevideojuego\\formcrearmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formcrearmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:ClienteVideojuego\\FormListarMunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\clientevideojuego\\formlistarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formlistarmunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\clientevideojuego\\formlistararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8ADFB06-3B98-4363-96E5-70B6B3D9797F}|ClienteVideojuego\\ClienteVideojuego.csproj|solutionrelative:clientevideojuego\\formlistararma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,140 +66,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormMenu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormMenu.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormMenu.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:55:56.835Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormJuego.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FormJuego.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormJuego.cs",
               "RelativeDocumentMoniker": "ClienteVideojuego\\FormJuego.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormJuego.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormJuego.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormJuego.cs",
+              "RelativeToolTip": "ClienteVideojuego\\FormJuego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:55:39.524Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormEliminarArma.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormEliminarArma.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormEliminarArma.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormEliminarArma.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormEliminarArma.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:55:34.89Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormCambiarArma.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCambiarArma.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormCambiarArma.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCambiarArma.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormCambiarArma.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:55:04.708Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormEliminarMunicion.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormEliminarMunicion.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormEliminarMunicion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormEliminarMunicion.cs",
-              "RelativeToolTip": "ClienteVideojuego\\FormEliminarMunicion.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAawD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:53:50.056Z",
+              "WhenOpened": "2025-04-20T16:41:46.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormCambiarMunicion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCambiarMunicion.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormCambiarMunicion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCambiarMunicion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormCambiarMunicion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:32:29.212Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "DocumentIndex": 2,
+              "Title": "FormJuego.resx",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormJuego.resx",
+              "RelativeDocumentMoniker": "ClienteVideojuego\\FormJuego.resx",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormJuego.resx",
+              "RelativeToolTip": "ClienteVideojuego\\FormJuego.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-20T16:41:45.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMenu.resx",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.resx",
+              "RelativeDocumentMoniker": "ClienteVideojuego\\FormMenu.resx",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.resx",
+              "RelativeToolTip": "ClienteVideojuego\\FormMenu.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-20T16:41:42.244Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormEliminarMunicion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormEliminarMunicion.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormEliminarMunicion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormEliminarMunicion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormEliminarMunicion.cs [Dise\u00F1o]",
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.cs",
+              "RelativeDocumentMoniker": "ClienteVideojuego\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormMenu.cs",
+              "RelativeToolTip": "ClienteVideojuego\\FormMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:32:12.464Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-20T16:41:41.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "Arma.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\Arma.cs",
               "RelativeDocumentMoniker": "ClienteVideojuego\\Arma.cs",
               "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\Arma.cs",
               "RelativeToolTip": "ClienteVideojuego\\Arma.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA3wCkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:09:33.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormListarArma.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormListarArma.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs",
-              "RelativeToolTip": "ClienteVideojuego\\FormListarArma.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAlwDsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:30:52.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FormListarMunicion.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormListarMunicion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs",
-              "RelativeToolTip": "ClienteVideojuego\\FormListarMunicion.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAvwC8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:29:13.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FormCrearMunicion.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearMunicion.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormCrearMunicion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearMunicion.cs",
-              "RelativeToolTip": "ClienteVideojuego\\FormCrearMunicion.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAjwCMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:55:14.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T04:23:11.539Z"
             },
             {
               "$type": "Document",
@@ -227,73 +129,81 @@
               "Title": "FormCrearMunicion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearMunicion.cs",
               "RelativeDocumentMoniker": "ClienteVideojuego\\FormCrearMunicion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearMunicion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormCrearMunicion.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\NuevoEmpresariales\\ClienteVideojuego\\ClienteVideojuego\\FormCrearMunicion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\NuevoEmpresariales\\ClienteVideojuego\\ClienteVideojuego\\FormCrearMunicion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:52:42.802Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-20T04:16:32.216Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "FormCrearArma.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearArma.cs",
+              "RelativeDocumentMoniker": "ClienteVideojuego\\FormCrearArma.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearArma.cs",
+              "RelativeToolTip": "ClienteVideojuego\\FormCrearArma.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T04:13:53.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FormCrearArma.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearArma.cs",
               "RelativeDocumentMoniker": "ClienteVideojuego\\FormCrearArma.cs",
               "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearArma.cs [Dise\u00F1o]",
               "RelativeToolTip": "ClienteVideojuego\\FormCrearArma.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:08:08.288Z",
+              "WhenOpened": "2025-04-20T04:13:29.817Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Municion.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\Municion.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\Municion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\Municion.cs",
-              "RelativeToolTip": "ClienteVideojuego\\Municion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:33:38.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormCrearArma.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearArma.cs",
-              "RelativeDocumentMoniker": "ClienteVideojuego\\FormCrearArma.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormCrearArma.cs",
-              "RelativeToolTip": "ClienteVideojuego\\FormCrearArma.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwDwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:31:25.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormListarArma.cs [Dise\u00F1o]",
+              "DocumentIndex": 8,
+              "Title": "FormListarArma.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs",
               "RelativeDocumentMoniker": "ClienteVideojuego\\FormListarArma.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormListarArma.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs",
+              "RelativeToolTip": "ClienteVideojuego\\FormListarArma.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwDYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:29:07.28Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-20T00:50:58.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "FormListarMunicion.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs",
+              "RelativeDocumentMoniker": "ClienteVideojuego\\FormListarMunicion.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs",
+              "RelativeToolTip": "ClienteVideojuego\\FormListarMunicion.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T00:50:54.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FormListarMunicion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs",
               "RelativeDocumentMoniker": "ClienteVideojuego\\FormListarMunicion.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ClienteVideojuego\\FormListarMunicion.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\NuevoEmpresariales\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\NuevoEmpresariales\\ClienteVideojuego\\ClienteVideojuego\\FormListarMunicion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:29:06.638Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-20T00:50:54.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormListarArma.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs",
+              "RelativeDocumentMoniker": "ClienteVideojuego\\FormListarArma.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\NuevoEmpresariales\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\NuevoEmpresariales\\ClienteVideojuego\\ClienteVideojuego\\FormListarArma.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T00:50:53.349Z"
             }
           ]
         }

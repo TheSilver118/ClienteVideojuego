@@ -16,6 +16,9 @@ namespace ClienteVideojuego
 {
     public partial class FormEliminarMunicion : Form
     {
+
+        private Municion municionActual;
+
         public FormEliminarMunicion()
         {
             InitializeComponent();
@@ -23,17 +26,43 @@ namespace ClienteVideojuego
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var nombre = textNombre.Text;
             var options = new RestClientOptions("http://localhost:8080");
             var client = new RestClient(options);
-            var request = new RestRequest("/Municion/");
-            var response = client.Get(request);
+            var request = new RestRequest("/Municion/buscarNombre/");
 
-            MessageBox.Show(response.Content); // 👈 Mostrá el JSON recibido
+            request.RequestFormat = DataFormat.Json;
 
-            var municiones = JsonSerializer.Deserialize<List<Municion>>(response.Content);
+            request.AddBody(new
+            {
 
-            CargarMunicionesEnTabla(municiones);
+                nombre = nombre
+            });
+
+
+
+            var response = client.Post(request);
+
+
+            var municion = JsonSerializer.Deserialize<Municion>(response.Content);
+            mostrarMunicion(municion);
+            municionActual = municion;
+            
         }
+
+        private void mostrarMunicion(Municion municion)
+        {
+            dataGridView1.Columns.Clear();
+            dataGridView1.Rows.Clear();
+
+            dataGridView1.Columns.Add("nombre", "Nombre");
+            dataGridView1.Columns.Add("cadencia", "Cadencia");
+            dataGridView1.Columns.Add("danoArea", "Daño en Área");
+            dataGridView1.ReadOnly = true;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.Rows.Add(municion.nombreMunicion, municion.cadencia, municion.dañoArea);
+        }
+
 
         private void CargarMunicionesEnTabla(List<Municion> municiones)
         {
@@ -50,7 +79,7 @@ namespace ClienteVideojuego
             dataGridView1.AllowUserToAddRows = false;
             foreach (var Municion in municiones)
             {
-                dataGridView1.Rows.Add(Municion.nombre, Municion.cadencia, Municion.danoArea, Municion.index);
+                dataGridView1.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea, Municion.indice);
             }
         }
 
@@ -63,5 +92,29 @@ namespace ClienteVideojuego
         {
 
         }
+
+        private void btn_Eliminar_Click(object sender, EventArgs e)
+        {
+
+            var options = new RestClientOptions("http://localhost:8080");
+            var client = new RestClient(options);
+            var request = new RestRequest("/Municion/");
+
+            request.RequestFormat = DataFormat.Json;
+
+            request.AddBody(new
+            {
+
+                indice = municionActual.indice
+            });
+
+
+
+            var response = client.Delete(request);
+
+
+            MessageBox.Show(response.Content);
+        }
+
     }
 }

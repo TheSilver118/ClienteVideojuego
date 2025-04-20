@@ -30,21 +30,21 @@
         {
             this.btn_listar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Daño = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Municion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Vida = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Velocidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FechaCreacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombreMunicion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DañoArea = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cadencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.daño = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.municion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.velocidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaCreacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreMunicion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.danoArea = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cadencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_listar
             // 
-            this.btn_listar.Location = new System.Drawing.Point(252, 264);
+            this.btn_listar.Location = new System.Drawing.Point(68, 149);
             this.btn_listar.Name = "btn_listar";
             this.btn_listar.Size = new System.Drawing.Size(178, 72);
             this.btn_listar.TabIndex = 3;
@@ -57,80 +57,80 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Daño,
-            this.Municion,
-            this.Nombre,
-            this.Vida,
-            this.Velocidad,
-            this.FechaCreacion,
-            this.NombreMunicion,
-            this.DañoArea,
-            this.Cadencia});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 46);
+            this.nombre,
+            this.daño,
+            this.municion,
+            this.vida,
+            this.velocidad,
+            this.fechaCreacion,
+            this.nombreMunicion,
+            this.danoArea,
+            this.cadencia});
+            this.dataGridView1.Location = new System.Drawing.Point(290, 126);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(487, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(445, 150);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // Daño
+            // nombre
             // 
-            this.Daño.HeaderText = "Daño";
-            this.Daño.Name = "Daño";
-            this.Daño.ReadOnly = true;
+            this.nombre.HeaderText = "nombre";
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
             // 
-            // Municion
+            // daño
             // 
-            this.Municion.HeaderText = "Municion";
-            this.Municion.Name = "Municion";
-            this.Municion.ReadOnly = true;
+            this.daño.HeaderText = "daño";
+            this.daño.Name = "daño";
+            this.daño.ReadOnly = true;
             // 
-            // Nombre
+            // municion
             // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
+            this.municion.HeaderText = "municion";
+            this.municion.Name = "municion";
+            this.municion.ReadOnly = true;
             // 
-            // Vida
+            // vida
             // 
-            this.Vida.HeaderText = "Vida";
-            this.Vida.Name = "Vida";
-            this.Vida.ReadOnly = true;
+            this.vida.HeaderText = "vida";
+            this.vida.Name = "vida";
+            this.vida.ReadOnly = true;
             // 
-            // Velocidad
+            // velocidad
             // 
-            this.Velocidad.HeaderText = "Velocidad";
-            this.Velocidad.Name = "Velocidad";
-            this.Velocidad.ReadOnly = true;
+            this.velocidad.HeaderText = "velocidad";
+            this.velocidad.Name = "velocidad";
+            this.velocidad.ReadOnly = true;
             // 
-            // FechaCreacion
+            // fechaCreacion
             // 
-            this.FechaCreacion.HeaderText = "FechaCreacion";
-            this.FechaCreacion.Name = "FechaCreacion";
-            this.FechaCreacion.ReadOnly = true;
+            this.fechaCreacion.HeaderText = "fechaCreacion";
+            this.fechaCreacion.Name = "fechaCreacion";
+            this.fechaCreacion.ReadOnly = true;
             // 
-            // NombreMunicion
+            // nombreMunicion
             // 
-            this.NombreMunicion.HeaderText = "NombreMunicion";
-            this.NombreMunicion.Name = "NombreMunicion";
-            this.NombreMunicion.ReadOnly = true;
+            this.nombreMunicion.HeaderText = "nombreMunicion";
+            this.nombreMunicion.Name = "nombreMunicion";
+            this.nombreMunicion.ReadOnly = true;
             // 
-            // DañoArea
+            // danoArea
             // 
-            this.DañoArea.HeaderText = "DañoArea";
-            this.DañoArea.Name = "DañoArea";
-            this.DañoArea.ReadOnly = true;
+            this.danoArea.HeaderText = "danoArea";
+            this.danoArea.Name = "danoArea";
+            this.danoArea.ReadOnly = true;
             // 
-            // Cadencia
+            // cadencia
             // 
-            this.Cadencia.HeaderText = "Cadencia";
-            this.Cadencia.Name = "Cadencia";
-            this.Cadencia.ReadOnly = true;
+            this.cadencia.HeaderText = "cadencia";
+            this.cadencia.Name = "cadencia";
+            this.cadencia.ReadOnly = true;
             // 
             // FormListarArma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 450);
+            this.ClientSize = new System.Drawing.Size(798, 450);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormListarArma";
@@ -144,14 +144,14 @@
 
         private System.Windows.Forms.Button btn_listar;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Daño;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Municion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Vida;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Velocidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FechaCreacion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NombreMunicion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DañoArea;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cadencia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn daño;
+        private System.Windows.Forms.DataGridViewTextBoxColumn municion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn vida;
+        private System.Windows.Forms.DataGridViewTextBoxColumn velocidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fechaCreacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreMunicion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn danoArea;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cadencia;
     }
 }

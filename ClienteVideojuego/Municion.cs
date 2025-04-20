@@ -10,15 +10,19 @@ namespace ClienteVideojuego
     internal class Municion
     {
         [JsonPropertyName("nombre")]
-        public string nombre { get; set; }
+        public string nombreMunicion { get; set; }
 
         [JsonPropertyName("cadencia")]
         public int cadencia { get; set; } // 👈 tipo correcto
 
-        [JsonPropertyName("danoArea")]
-        public bool danoArea { get; set; }
+        [JsonPropertyName("dañoArea")]
+        public bool dañoArea { get; set; }
 
-        [JsonPropertyName("index")]
-        public int index { get; set; }
+        [JsonPropertyName("indice")]
+        public int indice { get; set; }
+        public override string ToString()
+        {
+            return $"Municion: Nombre={nombreMunicion}, Cadencia={cadencia}, Daño de Área={dañoArea}, Índice={indice}";
+        }
     }
 }

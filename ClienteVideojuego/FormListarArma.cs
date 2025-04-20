@@ -42,33 +42,41 @@ namespace ClienteVideojuego
 
         private void CargarArmasEnTabla(List<Arma> armas)
         {
-            var tabla = new DataTable();
-            dataGridView1.Columns.Add("nombre","Nombre");
-            dataGridView1.Columns.Add("daño", "Daño");
-            dataGridView1.Columns.Add("munición", "Municion");
-            dataGridView1.Columns.Add("vida", "Vida");
-            dataGridView1.Columns.Add("velocidad", "Velocida");
-            dataGridView1.Columns.Add("fechaCreación", "Fecha Creacion");
-            dataGridView1.Columns.Add("tipoMunición", "Nombre");
-            dataGridView1.Columns.Add("danoArea", "DanoArea");
-            dataGridView1.Columns.Add("cadencia", "Cadencia");
+            dataGridView1.Columns.Clear();
+            dataGridView1.Rows.Clear();
+
+            dataGridView1.Columns.Add("nombre", "nombre");
+            dataGridView1.Columns.Add("daño", "daño");
+            dataGridView1.Columns.Add("municion", "municion");
+            dataGridView1.Columns.Add("vida", "vida");
+            dataGridView1.Columns.Add("velocidad", "velocidad");
+            dataGridView1.Columns.Add("fechaCreacion", "fechaCreacion");
+            dataGridView1.Columns.Add("nombreMunicion", "nombreMunicion");
+            dataGridView1.Columns.Add("cadencia", "cadencia");
+            dataGridView1.Columns.Add("danoArea", "danoArea");
+            
+
+            dataGridView1.ReadOnly = true;
+            dataGridView1.AllowUserToAddRows = false;
 
             foreach (var arma in armas)
             {
-                tabla.Rows.Add(
+                string fechaFormateada = arma.FechaCreacionDate.ToString("dd/MM/yyyy HH:mm:ss");
+
+                dataGridView1.Rows.Add(
                     arma.nombre,
                     arma.daño,
                     arma.municion,
                     arma.vida,
                     arma.velocidad,
-                    arma.fechaCreacion,
-                    arma.tipoMunicion.nombre,
-                    arma.tipoMunicion.danoArea,
+                    fechaFormateada,
+                    arma.tipoMunicion.nombreMunicion,
+                    arma.tipoMunicion.dañoArea,
                     arma.tipoMunicion.cadencia
                 );
             }
 
-            dataGridView1.DataSource = tabla;
+            dataGridView1.DataSource = dataGridView1;
         }
 
     }

@@ -46,7 +46,10 @@ namespace ClienteVideojuego
 
             var response = client.Post(request);
 
-            MessageBox.Show(response.Content);
+            
+
+            
+
             var arma = JsonSerializer.Deserialize<Arma>(response.Content);
             mostrarArma(arma);
             armaActual = arma;
@@ -58,17 +61,36 @@ namespace ClienteVideojuego
             dataGridView1.Rows.Clear();
 
             dataGridView1.Columns.Add("nombre", "Nombre");
-            dataGridView1.Columns.Add("municion", "Cargador");
-            dataGridView1.Columns.Add("dano", "Daño");
+            dataGridView1.Columns.Add("daño", "Daño");
+            dataGridView1.Columns.Add("municion", "Municion");
             dataGridView1.Columns.Add("vida", "Vida");
             dataGridView1.Columns.Add("velocidad", "Velocidad");
-            dataGridView1.Columns.Add("fechaCreacion", "Fecha Creacion");
-            dataGridView1.Columns.Add("tipoMunicion", "Tipo municion");
-            dataGridView1.Columns.Add("danoArea", "Daño en area");
+            dataGridView1.Columns.Add("fechaCreacion", "FechaCreacion");
+            dataGridView1.Columns.Add("nombreMunicion", "NombreMunicion");
             dataGridView1.Columns.Add("cadencia", "Cadencia");
+            dataGridView1.Columns.Add("danoArea", "DanoArea");
+
+
             dataGridView1.ReadOnly = true;
             dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.Rows.Add(arma.nombre, arma.municion, arma.daño, arma.vida, arma.velocidad, arma.fechaCreacion, arma.tipoMunicion.nombreMunicion, arma.tipoMunicion.dañoArea, arma.tipoMunicion.cadencia);
+
+            
+            string fechaFormateada = arma.FechaCreacionDate.ToString("dd/MM/yyyy HH:mm:ss");
+           
+            dataGridView1.Rows.Add(
+                arma.nombre,
+                arma.daño,
+                arma.municion,
+                arma.vida,
+                arma.velocidad,
+                fechaFormateada,
+                arma.tipoMunicion.nombreMunicion,
+                arma.tipoMunicion.cadencia,
+                arma.tipoMunicion.dañoArea);
+
+
+                
+            
         }
 
         private void btn_Eliminar_Click(object sender, EventArgs e)
@@ -79,7 +101,8 @@ namespace ClienteVideojuego
             var request = new RestRequest("/Arma/");
 
             request.RequestFormat = DataFormat.Json;
-
+            
+            
             request.AddBody(new
             {
                 tipo = "Rifle",
@@ -91,7 +114,7 @@ namespace ClienteVideojuego
             var response = client.Delete(request);
 
 
-            MessageBox.Show(response.Content);
+            
         }
 
         private void txt_eliminar_TextChanged(object sender, EventArgs e)

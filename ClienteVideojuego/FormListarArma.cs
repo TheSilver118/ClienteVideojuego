@@ -33,7 +33,7 @@ namespace ClienteVideojuego
             var request = new RestRequest("/Arma/");
             var response = client.Get(request);
 
-            MessageBox.Show(response.Content); // 👈 Mostrá el JSON recibido
+            
 
             var armas = JsonSerializer.Deserialize<List<Arma>>(response.Content);
 
@@ -45,15 +45,15 @@ namespace ClienteVideojuego
             dataGridView1.Columns.Clear();
             dataGridView1.Rows.Clear();
 
-            dataGridView1.Columns.Add("nombre", "nombre");
-            dataGridView1.Columns.Add("daño", "daño");
-            dataGridView1.Columns.Add("municion", "municion");
-            dataGridView1.Columns.Add("vida", "vida");
-            dataGridView1.Columns.Add("velocidad", "velocidad");
-            dataGridView1.Columns.Add("fechaCreacion", "fechaCreacion");
-            dataGridView1.Columns.Add("nombreMunicion", "nombreMunicion");
-            dataGridView1.Columns.Add("cadencia", "cadencia");
-            dataGridView1.Columns.Add("danoArea", "danoArea");
+            dataGridView1.Columns.Add("nombre", "Nombre");
+            dataGridView1.Columns.Add("daño", "Daño");
+            dataGridView1.Columns.Add("municion", "Municion");
+            dataGridView1.Columns.Add("vida", "Vida");
+            dataGridView1.Columns.Add("velocidad", "Velocidad");
+            dataGridView1.Columns.Add("fechaCreacion", "FechaCreacion");
+            dataGridView1.Columns.Add("nombreMunicion", "NombreMunicion");
+            dataGridView1.Columns.Add("cadencia", "Cadencia");
+            dataGridView1.Columns.Add("danoArea", "DanoArea");
             
 
             dataGridView1.ReadOnly = true;
@@ -62,7 +62,7 @@ namespace ClienteVideojuego
             foreach (var arma in armas)
             {
                 string fechaFormateada = arma.FechaCreacionDate.ToString("dd/MM/yyyy HH:mm:ss");
-
+                
                 dataGridView1.Rows.Add(
                     arma.nombre,
                     arma.daño,
@@ -71,12 +71,14 @@ namespace ClienteVideojuego
                     arma.velocidad,
                     fechaFormateada,
                     arma.tipoMunicion.nombreMunicion,
-                    arma.tipoMunicion.dañoArea,
-                    arma.tipoMunicion.cadencia
+                    arma.tipoMunicion.cadencia,
+                    arma.tipoMunicion.dañoArea
+
+
                 );
             }
 
-            dataGridView1.DataSource = dataGridView1;
+            
         }
 
     }

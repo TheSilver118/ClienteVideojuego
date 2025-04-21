@@ -31,7 +31,7 @@ namespace ClienteVideojuego
         [JsonPropertyName("tipoMunicion")]
         public Municion tipoMunicion { get; set; }
 
-        [JsonPropertyName("indice")]
+        [JsonPropertyName("index")]
         public int indice { get; set; }
 
 

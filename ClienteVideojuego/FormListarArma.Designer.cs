@@ -44,9 +44,10 @@
             // 
             // btn_listar
             // 
-            this.btn_listar.Location = new System.Drawing.Point(68, 149);
+            this.btn_listar.Location = new System.Drawing.Point(91, 183);
+            this.btn_listar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_listar.Name = "btn_listar";
-            this.btn_listar.Size = new System.Drawing.Size(178, 72);
+            this.btn_listar.Size = new System.Drawing.Size(237, 89);
             this.btn_listar.TabIndex = 3;
             this.btn_listar.Text = "Listar armas";
             this.btn_listar.UseVisualStyleBackColor = true;
@@ -66,73 +67,94 @@
             this.nombreMunicion,
             this.danoArea,
             this.cadencia});
-            this.dataGridView1.Location = new System.Drawing.Point(290, 126);
+            this.dataGridView1.Location = new System.Drawing.Point(387, 155);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(445, 150);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(981, 185);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // nombre
             // 
             this.nombre.HeaderText = "nombre";
+            this.nombre.MinimumWidth = 6;
             this.nombre.Name = "nombre";
             this.nombre.ReadOnly = true;
+            this.nombre.Width = 125;
             // 
             // daño
             // 
             this.daño.HeaderText = "daño";
+            this.daño.MinimumWidth = 6;
             this.daño.Name = "daño";
             this.daño.ReadOnly = true;
+            this.daño.Width = 125;
             // 
             // municion
             // 
             this.municion.HeaderText = "municion";
+            this.municion.MinimumWidth = 6;
             this.municion.Name = "municion";
             this.municion.ReadOnly = true;
+            this.municion.Width = 125;
             // 
             // vida
             // 
             this.vida.HeaderText = "vida";
+            this.vida.MinimumWidth = 6;
             this.vida.Name = "vida";
             this.vida.ReadOnly = true;
+            this.vida.Width = 125;
             // 
             // velocidad
             // 
             this.velocidad.HeaderText = "velocidad";
+            this.velocidad.MinimumWidth = 6;
             this.velocidad.Name = "velocidad";
             this.velocidad.ReadOnly = true;
+            this.velocidad.Width = 125;
             // 
             // fechaCreacion
             // 
             this.fechaCreacion.HeaderText = "fechaCreacion";
+            this.fechaCreacion.MinimumWidth = 6;
             this.fechaCreacion.Name = "fechaCreacion";
             this.fechaCreacion.ReadOnly = true;
+            this.fechaCreacion.Width = 125;
             // 
             // nombreMunicion
             // 
             this.nombreMunicion.HeaderText = "nombreMunicion";
+            this.nombreMunicion.MinimumWidth = 6;
             this.nombreMunicion.Name = "nombreMunicion";
             this.nombreMunicion.ReadOnly = true;
+            this.nombreMunicion.Width = 125;
             // 
             // danoArea
             // 
             this.danoArea.HeaderText = "danoArea";
+            this.danoArea.MinimumWidth = 6;
             this.danoArea.Name = "danoArea";
             this.danoArea.ReadOnly = true;
+            this.danoArea.Width = 125;
             // 
             // cadencia
             // 
             this.cadencia.HeaderText = "cadencia";
+            this.cadencia.MinimumWidth = 6;
             this.cadencia.Name = "cadencia";
             this.cadencia.ReadOnly = true;
+            this.cadencia.Width = 125;
             // 
             // FormListarArma
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(798, 450);
+            this.ClientSize = new System.Drawing.Size(1794, 554);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormListarArma";
             this.Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

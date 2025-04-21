@@ -84,3 +84,46 @@ C:\Users\Sebastian\Desktop\NuevoEmpresariales\ClienteVideojuego\ClienteVideojueg
 C:\Users\Sebastian\Desktop\NuevoEmpresariales\ClienteVideojuego\ClienteVideojuego\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Sebastian\Desktop\NuevoEmpresariales\ClienteVideojuego\ClienteVideojuego\bin\Debug\System.ValueTuple.xml
 C:\Users\Sebastian\Desktop\NuevoEmpresariales\ClienteVideojuego\ClienteVideojuego\obj\Debug\ClienteV.C7C110AA.Up2Date
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\ClienteVideojuego.exe.config
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\ClienteVideojuego.exe
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\ClienteVideojuego.pdb
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\NodaTime.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\RestSharp.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Buffers.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Memory.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Text.Json.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.ValueTuple.dll
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\NodaTime.pdb
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\NodaTime.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\RestSharp.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Buffers.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Memory.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Text.Json.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\bin\Debug\System.ValueTuple.xml
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.csproj.AssemblyReference.cache
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormCambiarArma.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormCambiarMunicion.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormCrearMunicion.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormEliminarArma.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormEliminarMunicion.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormJuego.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormListarArma.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormListarMunicion.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormMenu.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormCrearArma.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.Properties.Resources.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.csproj.GenerateResource.cache
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.csproj.CoreCompileInputs.cache
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteV.C7C110AA.Up2Date
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.exe
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.pdb

@@ -29,7 +29,7 @@ namespace ClienteVideojuego
             var request = new RestRequest("/Municion/");
             var response = client.Get(request);
 
-            MessageBox.Show(response.Content); // 👈 Mostrá el JSON recibido
+            
 
             var municiones = JsonSerializer.Deserialize<List<Municion>>(response.Content);
 
@@ -42,7 +42,7 @@ namespace ClienteVideojuego
             var request = new RestRequest("/Municion/");
             var response = client.Get(request);
 
-            MessageBox.Show(response.Content); // 👈 Mostrá el JSON recibido
+           
 
             var municiones = JsonSerializer.Deserialize<List<Municion>>(response.Content);
             municionesLista = municiones;
@@ -78,11 +78,42 @@ namespace ClienteVideojuego
             int vida = (int)numericUpDown2.Value;
             double velocidad = (double)numericUpDown3.Value;
             int municion = (int)numericUpDown4.Value;
-            string fechaFormateada = monthCalendar1.SelectionStart.ToString("yyyy-MM-ddTHH:mm:ss");
+            DateTime fechaSeleccionada = monthCalendar1.SelectionStart;
 
-            int filaSeleccionada = dataGridView1.CurrentRow.Index;
-            Municion municion1 = municionesLista[filaSeleccionada];
-            MessageBox.Show(municion1.nombreMunicion);
+            // Si quieres añadir hora actual:
+            DateTime fechaConHora = new DateTime(
+                fechaSeleccionada.Year,
+                fechaSeleccionada.Month,
+                fechaSeleccionada.Day,
+                DateTime.Now.Hour,
+                DateTime.Now.Minute,
+                DateTime.Now.Second
+            );
+            string fechaFormateada = fechaConHora.ToString("yyyy-MM-ddTHH:mm:ss");
+
+
+            Municion municion1;
+            if (dataGridView1.CurrentRow == null)
+            {
+                municion1 = new Municion();
+            }
+            else
+            {
+                int filaSeleccionada = dataGridView1.CurrentRow.Index;
+                string nom = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                municion1 = new Municion();
+                foreach(Municion m in municionesLista)
+                {
+                    if (m.nombreMunicion.Equals(nom))
+                    {
+                        municion1 = m;
+                    }
+                }
+                
+            }
+                
+            
+            
 
 
 

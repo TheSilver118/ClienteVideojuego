@@ -82,6 +82,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arma.cs" />
+    <Compile Include="FormBuscarArma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarArma.Designer.cs">
+      <DependentUpon>FormBuscarArma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarMunicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarMunicion.Designer.cs">
+      <DependentUpon>FormBuscarMunicion.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormFiltrarArma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +169,12 @@
     <Compile Include="Municion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBuscarArma.resx">
+      <DependentUpon>FormBuscarArma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarMunicion.resx">
+      <DependentUpon>FormBuscarMunicion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCambiarArma.resx">
       <DependentUpon>FormCambiarArma.cs</DependentUpon>
     </EmbeddedResource>

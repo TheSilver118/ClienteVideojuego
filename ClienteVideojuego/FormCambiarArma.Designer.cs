@@ -57,11 +57,11 @@
             // btn_listar
             // 
             this.btn_listar.Location = new System.Drawing.Point(49, 129);
-            this.btn_listar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_listar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_listar.Name = "btn_listar";
             this.btn_listar.Size = new System.Drawing.Size(237, 89);
             this.btn_listar.TabIndex = 5;
-            this.btn_listar.Text = "Listar armas";
+            this.btn_listar.Text = "Buscar arma";
             this.btn_listar.UseVisualStyleBackColor = true;
             this.btn_listar.Click += new System.EventHandler(this.btn_listar_Click);
             // 
@@ -76,7 +76,7 @@
             this.Velocidad,
             this.Index});
             this.dataGridView1.Location = new System.Drawing.Point(329, 141);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(725, 77);
@@ -170,7 +170,7 @@
             // txt_Velocidad
             // 
             this.txt_Velocidad.Location = new System.Drawing.Point(749, 286);
-            this.txt_Velocidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Velocidad.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Velocidad.Name = "txt_Velocidad";
             this.txt_Velocidad.Size = new System.Drawing.Size(132, 22);
             this.txt_Velocidad.TabIndex = 17;
@@ -179,7 +179,7 @@
             // txt_Municion
             // 
             this.txt_Municion.Location = new System.Drawing.Point(608, 286);
-            this.txt_Municion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Municion.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Municion.Name = "txt_Municion";
             this.txt_Municion.Size = new System.Drawing.Size(132, 22);
             this.txt_Municion.TabIndex = 16;
@@ -188,7 +188,7 @@
             // txt_Daño
             // 
             this.txt_Daño.Location = new System.Drawing.Point(469, 286);
-            this.txt_Daño.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Daño.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Daño.Name = "txt_Daño";
             this.txt_Daño.Size = new System.Drawing.Size(132, 22);
             this.txt_Daño.TabIndex = 15;
@@ -197,7 +197,7 @@
             // txt_Nombre
             // 
             this.txt_Nombre.Location = new System.Drawing.Point(329, 286);
-            this.txt_Nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nombre.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Nombre.Name = "txt_Nombre";
             this.txt_Nombre.Size = new System.Drawing.Size(132, 22);
             this.txt_Nombre.TabIndex = 14;
@@ -206,7 +206,7 @@
             // btn_cambiar
             // 
             this.btn_cambiar.Location = new System.Drawing.Point(49, 312);
-            this.btn_cambiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_cambiar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cambiar.Name = "btn_cambiar";
             this.btn_cambiar.Size = new System.Drawing.Size(237, 74);
             this.btn_cambiar.TabIndex = 13;
@@ -217,7 +217,7 @@
             // txt_vida
             // 
             this.txt_vida.Location = new System.Drawing.Point(891, 286);
-            this.txt_vida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_vida.Margin = new System.Windows.Forms.Padding(4);
             this.txt_vida.Name = "txt_vida";
             this.txt_vida.Size = new System.Drawing.Size(132, 22);
             this.txt_vida.TabIndex = 22;
@@ -293,7 +293,7 @@
             this.Controls.Add(this.btn_cambiar);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormCambiarArma";
             this.Text = "Form4";
             this.Load += new System.EventHandler(this.FormCambiarArma_Load);

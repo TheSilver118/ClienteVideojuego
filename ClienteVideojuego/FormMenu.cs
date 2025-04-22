@@ -36,7 +36,7 @@ namespace ClienteVideojuego
 
         private void acercaDeNostrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("By: Juan Alvarez, Juan Forero, Sebastian Acosta.");
         }
 
 
@@ -121,6 +121,18 @@ namespace ClienteVideojuego
         {
             FormFiltrarArma formFiltrarArma = new FormFiltrarArma();
             formFiltrarArma.Show();
+        }
+
+        private void buscarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBuscarArma form = new FormBuscarArma();
+            form.Show();
+        }
+
+        private void buscarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormBuscarMunicion bus = new FormBuscarMunicion();
+            bus.Show();
         }
     }
 }

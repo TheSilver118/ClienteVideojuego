@@ -129,3 +129,5 @@ C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresari
 C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.pdb
 C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormFiltrarMunicion.resources
 C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormFiltrarArma.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormBuscarArma.resources
+C:\Users\jupaf\Documents\Desarrollo aplicaciones empresariales\ProyectoEmpresarialesMicroservicios\Cliente net\ClienteVideojuego\obj\Debug\ClienteVideojuego.FormBuscarMunicion.resources

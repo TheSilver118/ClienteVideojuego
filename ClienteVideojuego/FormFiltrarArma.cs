@@ -4,42 +4,56 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.Json.Nodes;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using RestSharp;
-using System.Text.Json;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace ClienteVideojuego
 {
-    public partial class FormListarArma : Form
+    public partial class FormFiltrarArma : Form
     {
-        public FormListarArma()
+        public FormFiltrarArma()
         {
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btn_listar_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
+            int vida_minima = (int)numericUpDown2.Value;
+            int dano_minimo = (int)numericUpDown1.Value;
             var options = new RestClientOptions("http://localhost:8080");
             var client = new RestClient(options);
-            var request = new RestRequest("/Arma/");
-            
+            var request = new RestRequest("/Arma/filtrar");
+
+
+            request.RequestFormat = DataFormat.Json;
+
+            request.AddBody(new
+            {
+                vida_minima,
+                dano_minimo
+            });
+
 
             try
             {
-                var response = client.Execute(request, Method.Get);
+                var response = client.Execute(request, Method.Post);
 
                 if (response.IsSuccessful)
                 {
                     var armas = JsonSerializer.Deserialize<List<Arma>>(response.Content);
+
 
                     CargarArmasEnTabla(armas);
                 }
@@ -54,6 +68,9 @@ namespace ClienteVideojuego
                 // Este bloque solo capturará errores de conexión o problemas similares
                 MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
             }
+            
+
+            
 
             
         }
@@ -72,7 +89,7 @@ namespace ClienteVideojuego
             dataGridView1.Columns.Add("nombreMunicion", "NombreMunicion");
             dataGridView1.Columns.Add("cadencia", "Cadencia");
             dataGridView1.Columns.Add("danoArea", "DanoArea");
-            
+
 
             dataGridView1.ReadOnly = true;
             dataGridView1.AllowUserToAddRows = false;
@@ -80,7 +97,7 @@ namespace ClienteVideojuego
             foreach (var arma in armas)
             {
                 string fechaFormateada = arma.FechaCreacionDate.ToString("dd/MM/yyyy HH:mm:ss");
-                
+
                 dataGridView1.Rows.Add(
                     arma.nombre,
                     arma.daño,
@@ -96,8 +113,12 @@ namespace ClienteVideojuego
                 );
             }
 
-            
+
         }
 
+        private void FormFiltrarArma_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

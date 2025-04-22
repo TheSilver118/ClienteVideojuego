@@ -82,6 +82,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arma.cs" />
+    <Compile Include="FormFiltrarArma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFiltrarArma.Designer.cs">
+      <DependentUpon>FormFiltrarArma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFiltrarMunicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFiltrarMunicion.Designer.cs">
+      <DependentUpon>FormFiltrarMunicion.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormJuego.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +171,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEliminarMunicion.resx">
       <DependentUpon>FormEliminarMunicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFiltrarArma.resx">
+      <DependentUpon>FormFiltrarArma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFiltrarMunicion.resx">
+      <DependentUpon>FormFiltrarMunicion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormJuego.resx">
       <DependentUpon>FormJuego.cs</DependentUpon>

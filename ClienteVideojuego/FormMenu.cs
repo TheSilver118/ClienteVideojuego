@@ -110,5 +110,17 @@ namespace ClienteVideojuego
                 formEliminarMunicion.Show();               // Muestra el formulario (no bloquea el actual)
             }
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormFiltrarMunicion formFiltrarMunicion = new FormFiltrarMunicion();
+            formFiltrarMunicion.Show();
+        }
+
+        private void filtrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFiltrarArma formFiltrarArma = new FormFiltrarArma();
+            formFiltrarArma.Show();
+        }
     }
 }

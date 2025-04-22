@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -117,12 +119,15 @@ namespace ClienteVideojuego
 
 
 
-            var options = new RestClientOptions("http://localhost:8080");
+            var options = new RestClientOptions("http://localhost:8080")
+            {
+                ThrowOnAnyError = false,
+            };
             var client = new RestClient(options);
             var request = new RestRequest("/Arma/");
 
             request.RequestFormat = DataFormat.Json;
-
+            
             request.AddBody(new
             {
 
@@ -141,9 +146,29 @@ namespace ClienteVideojuego
                 }
 
             });
+            try
+            {
+                var response = client.Execute(request, Method.Post);
 
-            var response = client.Post(request);
-            MessageBox.Show("Response: " + response.StatusCode);
+                if (response.IsSuccessful)
+                {
+                    MessageBox.Show("Se creó el arma correctamente", "Éxito");
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
+
+
+
+
 
 
 

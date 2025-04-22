@@ -43,16 +43,34 @@ namespace ClienteVideojuego
             });
 
 
+            try
+            {
+                var response = client.Execute(request, Method.Post);
 
-            var response = client.Post(request);
-
+                if (response.IsSuccessful)
+                {
+                    var arma = JsonSerializer.Deserialize<Arma>(response.Content);
+                    mostrarArma(arma);
+                    armaActual = arma;
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
             
 
             
 
-            var arma = JsonSerializer.Deserialize<Arma>(response.Content);
-            mostrarArma(arma);
-            armaActual = arma;
+            
+
+            
         }
 
         private void mostrarArma(Arma arma)
@@ -110,9 +128,26 @@ namespace ClienteVideojuego
             });
 
 
+            try
+            {
+                var response = client.Execute(request, Method.Delete);
 
-            var response = client.Delete(request);
-
+                if (response.IsSuccessful)
+                {
+                    MessageBox.Show("Se elimino el arma correctamente", "Éxito");
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
+            
 
             
         }

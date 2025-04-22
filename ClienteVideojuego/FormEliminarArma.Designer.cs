@@ -42,7 +42,7 @@
             // btn_listar
             // 
             this.btn_listar.Location = new System.Drawing.Point(88, 138);
-            this.btn_listar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_listar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_listar.Name = "btn_listar";
             this.btn_listar.Size = new System.Drawing.Size(237, 89);
             this.btn_listar.TabIndex = 5;
@@ -59,11 +59,11 @@
             this.Daño,
             this.Municion,
             this.Velocidad});
-            this.dataGridView1.Location = new System.Drawing.Point(405, 66);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(405, 138);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(649, 50);
+            this.dataGridView1.Size = new System.Drawing.Size(649, 79);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -102,7 +102,7 @@
             // textNombre
             // 
             this.textNombre.Location = new System.Drawing.Point(141, 66);
-            this.textNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textNombre.Margin = new System.Windows.Forms.Padding(4);
             this.textNombre.Name = "textNombre";
             this.textNombre.Size = new System.Drawing.Size(116, 22);
             this.textNombre.TabIndex = 8;
@@ -111,7 +111,7 @@
             // btn_Eliminar
             // 
             this.btn_Eliminar.Location = new System.Drawing.Point(103, 352);
-            this.btn_Eliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Eliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Eliminar.Name = "btn_Eliminar";
             this.btn_Eliminar.Size = new System.Drawing.Size(175, 58);
             this.btn_Eliminar.TabIndex = 7;
@@ -128,7 +128,7 @@
             this.Controls.Add(this.btn_Eliminar);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormEliminarArma";
             this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using RestSharp;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 
 namespace ClienteVideojuego
 {
@@ -41,12 +42,37 @@ namespace ClienteVideojuego
 
 
 
-            var response = client.Post(request);
+            try
+            {
+                var response = client.Execute(request, Method.Post);
+
+                if (response.IsSuccessful)
+                {
+                    JsonNode jsonNode = JsonNode.Parse(response.Content);
+                    string danoAreaValue = jsonNode["danoArea"]?.ToString();
+                    int indexValue = jsonNode["index"] != null ? (int)jsonNode["index"] : 0;
 
 
-            var municion = JsonSerializer.Deserialize<Municion>(response.Content);
-            mostrarMunicion(municion);
-            municionActual = municion;
+                    var municion = JsonSerializer.Deserialize<Municion>(response.Content);
+                    municion.dañoArea = danoAreaValue?.ToLower() == "true";
+                    municion.indice = indexValue;
+                    mostrarMunicion(municion);
+                    municionActual = municion;
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
+
+            
+            
             
         }
 
@@ -109,11 +135,28 @@ namespace ClienteVideojuego
             });
 
 
+            try
+            {
+                var response = client.Execute(request, Method.Delete);
 
-            var response = client.Delete(request);
+                if (response.IsSuccessful)
+                {
+                    MessageBox.Show("Se elimino la municion correctamente", "Éxito");
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
 
 
-            MessageBox.Show(response.Content);
+            
         }
 
     }

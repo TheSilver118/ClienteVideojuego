@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using RestSharp;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 
 namespace ClienteVideojuego
 {
@@ -52,14 +53,42 @@ namespace ClienteVideojuego
             });
 
 
+            try
+            {
+                var response = client.Execute(request, Method.Post);
 
-            var response = client.Post(request);
+                if (response.IsSuccessful)
+                {
+                    JsonNode jsonNode = JsonNode.Parse(response.Content);
+                    string danoAreaValue = jsonNode["danoArea"]?.ToString();
+                    int indexValue = jsonNode["index"] != null ? (int)jsonNode["index"] : 0;
 
 
-            var municion = JsonSerializer.Deserialize<Municion>(response.Content);
-            MessageBox.Show(municion.ToString());
-            mostrarMunicion(municion);
-            municionActual = municion;
+
+                    var municion = JsonSerializer.Deserialize<Municion>(response.Content);
+                    municion.dañoArea = danoAreaValue?.ToLower() == "true";
+                    municion.indice = indexValue;
+
+                    mostrarMunicion(municion);
+                    municionActual = municion;
+                    
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
+
+
+            
+
+            
             
 
 
@@ -70,6 +99,12 @@ namespace ClienteVideojuego
             dataGridView1.Columns.Clear();
             dataGridView1.Rows.Clear();
 
+            txt_Nombre.Text = municion.nombreMunicion;
+            numeric_cadencia.Value = municion.cadencia;
+            
+            comboBox1.Text = municion.dañoArea.ToString();
+
+            
             dataGridView1.Columns.Add("nombre", "Nombre");
             dataGridView1.Columns.Add("cadencia", "Cadencia");
             dataGridView1.Columns.Add("danoArea", "Daño en Área");
@@ -122,23 +157,33 @@ namespace ClienteVideojuego
             var request = new RestRequest("/Municion/");
             
             string json = JsonSerializer.Serialize(municionActual);
-            MessageBox.Show(json); // Mira el contenido
+            
             request.AddJsonBody(municionActual);
+
+            try
+            {
+                var response = client.Execute(request, Method.Put);
+
+                if (response.IsSuccessful)
+                {
+                    MessageBox.Show("Se creó el arma correctamente", "Éxito");
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
+
+
             
 
-            var response = client.Put(request);
-
-            if (response.IsSuccessful)
-            {
-                MessageBox.Show("Munición actualizada correctamente.");
-                mostrarMunicion(municionActual);
-            }
-            else
-            {
-                MessageBox.Show("no sirvio");
-                mostrarMunicion(municionActual);
-
-            }
+            
         }
 
 

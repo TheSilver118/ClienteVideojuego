@@ -51,8 +51,28 @@ namespace ClienteVideojuego
                 danoArea = dArea
             });
 
-            var response = client.Post(request);
-            MessageBox.Show("Response: " + response.StatusCode);
+            try
+            {
+                var response = client.Execute(request, Method.Post);
+
+                if (response.IsSuccessful)
+                {
+                    MessageBox.Show("Se creó la municion correctamente", "Éxito");
+                }
+                else
+                {
+                    // El mensaje de error está directamente en response.Content como string
+                    MessageBox.Show($"Error ({(int)response.StatusCode}): {response.Content}", "Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Este bloque solo capturará errores de conexión o problemas similares
+                MessageBox.Show($"Error de conexión: {ex.Message}", "Error");
+            }
+
+
+            
         }
 
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)

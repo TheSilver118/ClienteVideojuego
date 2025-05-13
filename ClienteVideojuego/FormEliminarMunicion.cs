@@ -55,7 +55,7 @@ namespace ClienteVideojuego
 
                     var municion = JsonSerializer.Deserialize<Municion>(response.Content);
                     municion.dañoArea = danoAreaValue?.ToLower() == "true";
-                    municion.indice = indexValue;
+                    municion.id = indexValue;
                     mostrarMunicion(municion);
                     municionActual = municion;
                 }
@@ -105,7 +105,7 @@ namespace ClienteVideojuego
             dataGridView1.AllowUserToAddRows = false;
             foreach (var Municion in municiones)
             {
-                dataGridView1.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea, Municion.indice);
+                dataGridView1.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea, Municion.id);
             }
         }
 
@@ -131,7 +131,7 @@ namespace ClienteVideojuego
             request.AddBody(new
             {
 
-                indice = municionActual.indice
+                indice = municionActual.id
             });
 
 

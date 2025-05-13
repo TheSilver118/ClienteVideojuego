@@ -67,7 +67,7 @@ namespace ClienteVideojuego
 
                     var municion = JsonSerializer.Deserialize<Municion>(response.Content);
                     municion.dañoArea = danoAreaValue?.ToLower() == "true";
-                    municion.indice = indexValue;
+                    municion.id = indexValue;
 
                     mostrarMunicion(municion);
                     municionActual = municion;

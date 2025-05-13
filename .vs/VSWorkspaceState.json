@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ClienteVideojuego"
   ],
-  "SelectedNode": "\\ClienteVideojuego.sln",
+  "SelectedNode": "\\ClienteVideojuego\\FormEliminarArma.cs",
   "PreviewInSolutionExplorer": false
 }

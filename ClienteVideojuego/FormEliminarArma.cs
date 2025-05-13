@@ -124,7 +124,7 @@ namespace ClienteVideojuego
             request.AddBody(new
             {
                 tipo = "Rifle",
-                indice = armaActual.indice
+                indice = armaActual.id
             });
 
 

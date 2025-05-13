@@ -75,7 +75,7 @@ namespace ClienteVideojuego
 
                             // Asignar los valores correctos a cada objeto Municion
                             municiones[i].dañoArea = danoAreaValue?.ToLower() == "true";
-                            municiones[i].indice = indexValue;
+                            municiones[i].id = indexValue;
 
                         }
                     }

@@ -67,7 +67,7 @@ namespace ClienteVideojuego
             dataGridView1.AllowUserToAddRows = false;
             foreach (var Municion in municiones)
             {
-                dataGridView1.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea, Municion.indice);
+                dataGridView1.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea, Municion.id);
             }
         }
 

@@ -198,7 +198,7 @@ namespace ClienteVideojuego
 
                 },
                 tipo ="Rifle",
-                indice= armaActual.indice
+                indice= armaActual.id
             });
 
             try
@@ -288,7 +288,7 @@ namespace ClienteVideojuego
             dataGridView2.AllowUserToAddRows = false;
             foreach (var Municion in municiones)
             {
-                dataGridView2.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea, Municion.indice);
+                dataGridView2.Rows.Add(Municion.nombreMunicion, Municion.cadencia, Municion.dañoArea, Municion.id);
             }
         }
 

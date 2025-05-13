@@ -18,11 +18,11 @@ namespace ClienteVideojuego
         [JsonPropertyName("dañoArea")]
         public bool dañoArea { get; set; }
 
-        [JsonPropertyName("indice")]
-        public int indice { get; set; }
+        [JsonPropertyName("id")]
+        public int id { get; set; }
         public override string ToString()
         {
-            return $"Municion: Nombre={nombreMunicion}, Cadencia={cadencia}, Daño de Área={dañoArea}, Índice={indice}";
+            return $"Municion: Nombre={nombreMunicion}, Cadencia={cadencia}, Daño de Área={dañoArea}, Índice={id}";
         }
     }
 }
